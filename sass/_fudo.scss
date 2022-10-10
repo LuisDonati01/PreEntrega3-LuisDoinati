@@ -1,0 +1,47 @@
+header{
+    color: black;
+    padding: 3rem 0;
+    nav{
+        width: 100%;
+        margin: 0 auto;
+        list-style-type: none;
+        ul{
+            display: flex;
+            li{
+                text-decoration: none;
+                font-size: large;
+                a{
+                    background-color: grey;
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+.fudo-img{
+    margin-top: 75px;
+    border-radius: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+
+footer{
+    margin-top: 200px;
+}
+
+.fudo-img :hover{
+
+    transform: scale(1.1);
+}
+
+
+.fudo1{
+    margin-left: 6px;
+}
